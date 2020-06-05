@@ -44,7 +44,7 @@ CREATE TABLE `flower` (
 
 CREATE TABLE `user` (
   `uid` int(11) NOT NULL AUTO_INCREMENT,
-  `uname` varchar(10) NOT NULL,
+  `uname` varchar(11) NOT NULL,
   `upwd` varchar(10) NOT NULL,
   `name` varchar(6) DEFAULT NULL,
   PRIMARY KEY (`uid`)
